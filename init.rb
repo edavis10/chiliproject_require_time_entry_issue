@@ -1,10 +1,11 @@
 require 'redmine'
 
 Redmine::Plugin.register :chiliproject_require_time_entry_issue do
-  name 'Chiliproject Require Time Entry Issue plugin'
-  author 'Author name'
-  description 'This is a plugin for ChiliProject'
-  version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  name 'Require Time Entry'
+  author 'Eric Davis of Little Stream Software'
+  description 'Require Time Entry is a plugin that Require an issue when logging time'
+  url 'https://projects.littlestreamsoftware.com/projects/redmine-misc'
+  author_url 'http://www.littlestreamsoftware.com'
+
+  version '0.1.0'
 end

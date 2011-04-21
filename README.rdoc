@@ -1,3 +1,28 @@
-= require_time_entry_issue
+= Require Time Entry Issue
 
-Description goes here
+Simple plugin that requires an issue when logging time.
+
+== Getting the plugin
+
+A copy of the plugin can be downloaded from {Little Stream Software}[https://projects.littlestreamsoftware.com/projects/redmine-misc/files] or from {GitHub}[http://github.com/edavis10/chiliproject_require_time_entry_issue]
+
+
+== Installation and Setup
+
+1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins 
+2. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
+
+== Usage
+
+It will automatically make issues required on Time Entries. Previous Time Entries will need to be updated by hand.
+
+Note: until ChiliProject supports dynamically showing the required fields, the Issue will not have a red asterisk by it.
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
+
+== Project help
+
+If you need help you can contact the maintainer at the Bug Tracker.  The bug tracker is located at  https://projects.littlestreamsoftware.com
+
