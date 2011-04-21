@@ -9,3 +9,9 @@ Redmine::Plugin.register :chiliproject_require_time_entry_issue do
 
   version '0.1.0'
 end
+require 'dispatcher'
+Dispatcher.to_prepare :chiliproject_require_time_entry_issue do
+
+  require_dependency 'time_entry'
+  TimeEntry.send(:include, ChiliprojectRequireTimeEntryIssue::Patches::TimeEntryPatch)
+end
